@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Added some commets
         titleLabel.text = "Hello Bob!"
         
     }
