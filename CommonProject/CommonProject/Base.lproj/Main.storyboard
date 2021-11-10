@@ -17,30 +17,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uCH-TD-4DE">
-                                <rect key="frame" x="87" y="655" width="240" height="128"/>
+                                <rect key="frame" x="-47" y="-40" width="240" height="128"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQp-lF-Lqv">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQp-lF-Lqv">
                                         <rect key="frame" x="99" y="22" width="42" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                <constraints>
-                                    <constraint firstItem="NQp-lF-Lqv" firstAttribute="top" secondItem="uCH-TD-4DE" secondAttribute="top" constant="22" id="frT-D5-txh"/>
-                                    <constraint firstItem="NQp-lF-Lqv" firstAttribute="centerX" secondItem="uCH-TD-4DE" secondAttribute="centerX" id="fyU-3d-trh"/>
-                                    <constraint firstItem="NQp-lF-Lqv" firstAttribute="centerY" secondItem="uCH-TD-4DE" secondAttribute="centerY" id="osa-J2-o5F"/>
-                                </constraints>
                             </view>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NdK-9Q-doK">
+                                <rect key="frame" x="128" y="682" width="49" height="31"/>
+                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uCH-TD-4DE" secondAttribute="bottom" constant="79" id="5Gd-pK-1Lc"/>
-                            <constraint firstItem="uCH-TD-4DE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DAH-Dk-FWn"/>
-                            <constraint firstItem="uCH-TD-4DE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="L4T-cZ-E7F"/>
-                            <constraint firstItem="uCH-TD-4DE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="655" id="wIT-eD-vca"/>
+                            <constraint firstItem="uCH-TD-4DE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-67" id="7nQ-58-tU8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NdK-9Q-doK" secondAttribute="bottom" constant="149" id="ESW-9M-ucf"/>
+                            <constraint firstItem="uCH-TD-4DE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-84" id="Q54-kN-b3m"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uCH-TD-4DE" secondAttribute="bottom" constant="774" id="XVc-cz-6li"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uCH-TD-4DE" secondAttribute="trailing" constant="221" id="eKu-Vz-Jua"/>
+                            <constraint firstItem="NdK-9Q-doK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="128" id="o7H-I0-VKv"/>
                         </constraints>
                     </view>
                     <connections>
